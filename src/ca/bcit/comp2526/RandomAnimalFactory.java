@@ -2,6 +2,10 @@ package ca.bcit.comp2526;
 
 import java.util.Random;
 
+/**
+ * @author Marcos Garcia
+ * @version June 04 2020
+ */
 public class RandomAnimalFactory implements AnimalFactory {
     @Override
     public Animal createAnimal(final String animalType){

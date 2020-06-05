@@ -2,6 +2,10 @@ package ca.bcit.comp2526;
 
 import java.security.spec.RSAOtherPrimeInfo;
 
+/**
+ * @author Marcos Garcia
+ * @version June 04 2020
+ */
 public class Cat extends AbstractAnimal
 {
     /**

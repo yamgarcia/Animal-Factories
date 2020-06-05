@@ -4,21 +4,21 @@ package ca.bcit.comp2526;
  * @author Marcos Garcia
  * @version June 04 2020
  */
-public class Dog extends AbstractAnimal
+public class Bird extends AbstractAnimal
 {
     /**
      * Default constructor. dogs have 4 legs
      */
-    public Dog(){
+    public Bird(){
         this(
-                4);
+                2);
     }
 
     /**
      *
      * @param nm dog's name
      */
-    public Dog(final String nm){
+    public Bird(final String nm){
 
         this(nm, 4);
     }
@@ -26,7 +26,7 @@ public class Dog extends AbstractAnimal
     /**
      * @param numLegs to be provided in case it doesn't have exactly 4 legs
      */
-    public Dog(final int numLegs){
+    public Bird(final int numLegs){
 
         super(numLegs);
     }
@@ -36,22 +36,13 @@ public class Dog extends AbstractAnimal
      * @param nm dog's name
      * @param numLegs to be provided to dog
      */
-    public Dog(final String nm, final int numLegs){
+    public Bird(final String nm, final int numLegs){
 
         super(nm, numLegs);
     }
 
     @Override
     public void speak(final String message) {
-
-        if (message.equals("hello")){
-            System.out.println("woof");
-        }
-        else if (message.equals("good bye")){
-            System.out.println("whine");
-        } else {
-            System.out.println("<wag tail>");
-        }
-
+        System.out.println("chirp");
     }
 }

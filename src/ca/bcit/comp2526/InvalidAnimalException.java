@@ -1,5 +1,9 @@
 package ca.bcit.comp2526;
 
+/**
+ * @author Marcos Garcia
+ * @version June 04 2020
+ */
 public class InvalidAnimalException extends Exception {
 
     private final String type;
