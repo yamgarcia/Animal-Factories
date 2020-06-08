@@ -3,8 +3,10 @@ package ca.bcit.comp2526;
 /**
  * @author Marcos Garcia
  * @version June 04 2020
+ *
+ * Animal factory and exception handling
  */
-public class Main {
+class Main3 {
 
     public static void main(final String[] argv)  { //main should never throw an exception
         try {
