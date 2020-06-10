@@ -1,5 +1,9 @@
 package ca.bcit.comp2526;
 
+/**
+ *
+ * NotEnoughDataException
+ */
 public class NotEnoughDataException
     extends Exception
 {
